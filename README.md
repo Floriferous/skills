@@ -24,6 +24,12 @@ Or copy a skill's folder into `~/.claude/skills/` or a project's `.claude/skills
 
 **The fix.** Classify every failure path, every time. A defect, meaning the code, its configuration or its environment is not what was assumed, crashes where it is detected, with a message that names the cause. That's about 99% of failure paths. Only an expected failure, something the world may do to correct code such as a network timeout, gets a bounded, visible retry or fallback.
 
+### [`dependency-gardening`](dependency-gardening/SKILL.md) (model-invoked)
+
+**The problem.** A version bump and a changelog review can leave outdated patterns, unnecessary wrappers, and poor library usage untouched.
+
+**The fix.** Reassess the selected library's entire adoption against current documentation and capabilities. Upgrade, simplify, remove obsolete workarounds, and account for every usage—including what should stay as it is.
+
 ## License
 
 [MIT](LICENSE)
