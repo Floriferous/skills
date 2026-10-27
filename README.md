@@ -30,6 +30,16 @@ Or copy a skill's folder into `~/.claude/skills/` or a project's `.claude/skills
 
 **The fix.** Reassess the selected library's entire adoption against current documentation and capabilities. Upgrade, simplify, remove obsolete workarounds, and account for every usage—including what should stay as it is.
 
+### [`keyword-first-seo`](keyword-first-seo/SKILL.md) (model-invoked)
+
+> "You'll be spending months on this keyword."
+>
+> Danny Postma
+
+**The problem.** A product launched without an audience gets no visitors. Agents asked about SEO tend to suggest generic checklists such as meta tags, blog posts and sitemaps, which never decide what to build.
+
+**The fix.** Put the keyword first. Choose one search term with low difficulty, enough volume and many long-tail children, then build the product, its pages and its launch around it. Earn the first backlinks with a Product Hunt launch, then wait. This follows [Danny Postma's thread](https://x.com/dannypostma/status/1646368426246680579), updated for Google's current spam policies.
+
 ## License
 
 [MIT](LICENSE)
